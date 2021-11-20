@@ -180,6 +180,15 @@ h2 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    animation-name: intro;
+    animation-duration: 1.3s;
+    position: relative;
+}
+
+.div-img {
+    animation-name: intro2;
+    animation-duration: 1.3s;
+    position: relative;
 }
 
 .contain p {
