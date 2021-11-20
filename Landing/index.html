@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strauss Instruments</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/S.png">
+</head>
+<body>
+    
+    <header>
+        <nav class="navbar">
+
+            <div class="logo">
+                <a href="index.html">Strauss</a>
+            </div>
+
+            <div class="menu">
+                <label for="menu-toggle">
+                    <div class="menu-button">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </label>
+
+                <input type="checkbox" id="menu-toggle" class="menu-toggle"/>
+                <ul class="toggle">
+                    <li>
+                        <a class="underline" href="index.html">Inicio</a>
+                    </li>
+                    <li>
+                        <a class="underline" href="#products">Productos</a>
+                    </li>
+                    <li>
+                        <a class="underline" href="#contact-us">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+
+        </nav>
+
+        <div class="banner">
+            <div class="start">
+                <h1>Bienvenidos a Strauss Instruments</h1>
+        
+            </div>
+
+        </div>
+
+    </header>
+
+    <main>
+        <div class="contain top-section">
+
+            <div class="div-img col-5">
+                <img class="header-img" src="assets\background1.jpg" alt="foto de guitarra, saxo y teclado">
+            </div>
+
+            <div class="col-7 component">
+
+                <div class="text-component">
+                    <p>Nos dedicamos a la venta y reparación de instrumentos de todo tipo.</p>
+                </div>
+
+                <div class="text-component">
+                    <p>Somos expertos con más de 15 años de experiencia. Si te gusta la música tanto como a nosotros, este es el lugar que buscabas..</p>
+                </div>
+            </div>
+                
+        </div>
+
+        <div class="banner" id="products">
+            <div class="start">
+    
+                <p id="main-p">Nuestros Productos</p>
+        
+            </div>
+        </div>
+
+    </main>
+
+    <div class="main-products">
+        <section class="product col-3">
+            <div class="product-container">
+                <a href="#products">
+                    <img src="./assets/guitarra2.jpg" alt="imagen de guitarra eléctrica">
+                    <h2>Guitarras</h2>
+                </a>
+            </div>
+            
+        </section>
+
+        <section class="product col-3">
+            <div class="product-container">
+                <a href="#products">
+                    <img src="./assets/bajo2.jpg" alt="imagen de bajo">
+                    <h2>Bajos</h2>
+                </a>
+            </div>
+
+        </section>
+        
+        <section class="product col-3">
+            <div class="product-container">
+                <a href="#products">
+                    <img src="./assets/violin2.jpg" alt="imagen de violín">
+                    <h2>Violines</h2>
+                </a>
+            </div>
+
+        </section>
+
+        <section class="product col-3">
+            <div class="product-container">
+                <a href="#products">
+                    <img src="./assets/teclado1.jpg" alt="imagen de teclado">
+                    <h2>Teclados</h2>
+                </a>
+            </div>
+
+        </section>
+
+        <section class="product col-3">
+            <div class="product-container">
+                <a href="#products">
+                    <img src="./assets/bateria1.jpg" alt="imagen de batería">
+                    <h2>Baterías</h2>
+                </a>
+            </div>
+
+        </section>
+
+        <section class="product col-3">
+            <div class="product-container">
+                <a href="#products">
+                    <img src="./assets/trompeta1.jpg" alt="imagen de trompeta">
+                    <h2>Trompetas</h2>
+                </a>
+            </div>
+
+        </section>
+
+    </div>
+
+    <div class="banner" id="contact-us">
+        <div class="start">
+
+            <p id="main-p">Contáctenos</p>
+    
+        </div>
+
+    </div>
+
+    <div class="main-contact">
+        <section class="section-container social col-3">
+
+            <div class="network">
+                <a href="https://www.instagram.com" target="_blank">
+                    <img src="./assets/ig1.png" alt="logo instagram">
+                </a>
+            </div>
+
+            <div class="network">
+                <a href="https://www.whatsapp.com" target="_blank">
+                    <img src="./assets/wh1.png" alt="logo whastapp">
+                </a>
+            </div>
+
+            <div class="network">
+                <a href="https://www.facebook.com" target="_blank">
+                    <img src="./assets/fb1.png" alt="logo facebook">
+                </a>
+            </div>
+
+            <div class="network">
+                <a href="https://www.twitter.com" target="_blank">
+                    <img src="./assets/tw1.png" alt="logo twitter">
+                </a>
+            </div>
+
+        </section>
+
+        <!-- <div class="section-container iframe">
+
+            <iframe width="90%" height="185" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=-61.02355957031251%2C-35.36441589327595%2C-60.11718750000001%2C-34.869031702008634&amp;layer=mapnik" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/#map=11/-35.1171/-60.5704" target="_blank">Ver mapa más grande</a></small>
+
+        </div> -->
+
+        <section class="section-container contact-form col-2">
+            <div>
+                <p class="form-title">Dejanos tu consulta/sugerencia</p>
+                <form action="contact">
+                    <div>
+                        <p>Su nombre y apellido:</p>
+                        <input type="text" name="Nombre" id="Nombre" placeholder="ej: Juan Pérez">  
+                    </div>
+                    <div>
+                        <p>Su email:</p>
+                        <input type="email" name="email" id="email" placeholder="ej: j-perez@strauss.com">
+                    </div>
+                    <div>
+                        <p>Ingrese su comentario..</p>
+                        <textarea name="text" id="text" cols="30" rows="5" placeholder="Hola, muy bueno todo.."></textarea>
+                    </div>
+                    <div>
+                        <button id="submit-form" type="submit">Enviar</button>
+                    </div>
+
+                </form>
+            </div>
+
+        </section>
+
+        <div class="section-container iframe">
+
+            <iframe width="90%" height="185" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=-61.02355957031251%2C-35.36441589327595%2C-60.11718750000001%2C-34.869031702008634&amp;layer=mapnik" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/#map=11/-35.1171/-60.5704" target="_blank">Ver mapa más grande</a></small>
+
+        </div>
+    </div>
+
+    <div class="banner">
+        <div class="start">
+
+            <p id="main-p">Strauss</p>
+    
+        </div>
+
+    </div>
+
+
+</body>
+</html>
